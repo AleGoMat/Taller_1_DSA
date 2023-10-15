@@ -22,7 +22,7 @@ app.config.suppress_callback_exceptions = True
 # Load data from csv
 def load_data():
     
-    df = pd.read_csv('C:/Users/grace/Documents/Taller_1_DSA/datos_energia.csv')
+    df = pd.read_csv('datos_energia.csv')
     
     
     df['fecha'] = pd.to_datetime(df['time'])
